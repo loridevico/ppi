@@ -1,0 +1,41 @@
+body {
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 300px;
+    background-color: white;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.089);
+    padding: 45px 40px;
+}
+
+input,label {
+    width: 100%;
+    box-sizing: border-box;
+    height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0;
+    outline: none;
+}
+
+input:focus{
+    box-shadow: 0 0 5px 5px rgba(131, 131, 131, 0.281);
+}
+
+button {
+    width: 100%;
+    box-sizing: border-box;
+    height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: #000000;
+}
